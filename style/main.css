@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body *{
+    margin-bottom: 5vh;
+}
+
+h1 { /*CSS1-5*/
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 3px #9370DB;
+}
+
+.cityTitle { /*CSS6*/
+    font-size: 30px;
+}
+
+input[type=text]:hover { /*CSS7*/
+    box-shadow: inset 3px 3px 3px #9370DB;
+}
+
+.convert { /*CSS8-12*/
+    box-shadow: 3px 3px 3px #9370DB;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #9370DB;
+}
+.convert:active{ /*CSS13*/
+    border: 2px solid #9370DB;
+}
